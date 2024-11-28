@@ -2,7 +2,31 @@
 
 Une version simplifiée du jeu Asteroids, utilisant Pygame.
 
-Axes d'amélioration :
+## Installation
+- Création d'un environement virtuel :
+```bash
+python3 -m venv .venv
+```
+- Activation de l'environement virtuel :
+```bash
+source .venv/bin/activate
+```
+=> (.venv) doit apparaitre en premier dans le prompt du terminal
+- Installation de Pygame :
+```bash
+pip install -r requirements.txt
+```
+- Lancer le jeu :
+```bash
+python3 main.py
+```
+
+=> Pour stopper l'environement virtuel :
+```bash
+deactivate
+```
+
+## Axes d'amélioration :
 
 - [ ] Ajouter un système de score
 - [ ] Mettre en œuvre plusieurs vies et réapparitions
