@@ -36,6 +36,11 @@ def main():
 		
 		for obj in updatable:
 			obj.update(dt)
+		
+		for obj in asteroids:
+			if obj.collides_with(player) == True:
+				print("Game over !")
+				sys.exit()
 
 		pygame.display.flip()
 
